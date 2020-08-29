@@ -1,0 +1,47 @@
+S1: Verify the UI/browsers' functionality while using the website
+	S1.TC1 : Verify if the website works in different browsers (Chrome/FF/Edge/IE/Safari)
+	S1.TC2 : Verify if there is no additional information logged in the terminal window of the browsers
+	S1.TC3 : Verify if the content of the website are horizontally and vertically center aligned
+S2: Verify the 'Add Item' Component for its Input fields
+	S2.TC1 : Verify if the input fields like ItemName, ItemDescription, Price and Image are available to enter data.
+	S2.TC2 : Verify if the button available to add the items is clickable.
+	S2.TC3 : Verify if mandatory fields (name, description and price) is indicated with an asterisk(*)
+S3: Verify the flow when user enters the item data in the component
+	S3.TC1 : Verify if the user is able to add the item by clicking the button when user enters all data correctly.
+	S3.TC2 : Verify if the user is not able to add the item if he doesnt enter the data
+S4: Verify the component input fields' validations
+	S3.TC1 : Verify if the ItemName is unique by displaying error message while trying to add item
+	S3.TC2 : Verify if the precision length for the description by displaying error message every time the description exceeds the length fixed.
+	S3.TC3 : Verify if the price field accepts only double data type
+S5: Verify if the user is able to add item to inventory when required fields are entered
+	S5.TC1 : Verify if user has filled all the required/compulsary fields (name, description and price) and is able to add the item to the inventory
+	S5.TC2 : Verify if user has not filled all the required/compulsary fields (name, description and price) and is not able to add the item to the inventory
+S6: Verify if the user is able to download when optional fields are entered	
+	S6.TC1 : Verify if user has filled all the optional fields (image) and is able to add the item to the inventory
+	S6.TC2 : Verify if user has not filled all the optional fields (image) and is still able to add the item to the inventory
+S7: Verify the Display List's components
+	S7.TC1 : Verify if the List contains fields like ItemName, Price and Image(optional) displayed for each item.
+	S7.TC2 : Verify if Hand cursor is displayed upon hovering over each item, indicationg to click.
+	S7.TC3 : Verify if the Remove option is present for each item, and is clickable
+S9: Verify the Item Information Page
+	S9.TC1 : Verify if content of the pages are horizontally and vertically center aligned
+	S9.TC2 : Verify if for each item, Item Name, Description , Price and/or Image is displayed as per data entered by the User.
+S10. Verify the Item added in the DB
+	S10.TC1 : Verify if all the values are mapped against the correct column in the table
+	S10.TC1 : Verify if each item is uniquely ingested in the database
+	S10.TC3 : Verify if the data for the particular item is truncated as the user clicks the Remove Button displayed on the List
+S11: Verify the asynchronus nature of the API calls
+	S11.TC1 : Verify if after clicking the Add Item button there are no full-page reloads
+	S11.TC2 : Verify if after clicking the Item present on the List there is a full-page reload.
+S12: Verify the ease of UI for the user	
+	S12.TC1 : Verify if user is able to use the ENTER/TAB keys to add item/switch between tabs
+	S12.TC2 : Verify if there are placeholders for each of the text input fields
+S13: Verify the performance of the web application
+	S13.TC1 : Verify if multiple users are able to add Item/Display Items at the same time.
+	S13.TC2 : Verify if the item added contains information for the particular user
+	
+	
+	
+	
+	
+	

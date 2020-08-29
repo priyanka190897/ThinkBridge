@@ -1,0 +1,15 @@
+
+1. The Title of the Page is not Center aligned
+2. The links and Important informations look alike.
+3. There is no uniformity with the font styles used.
+4. The Login/Home button takes the user to the same Login Page
+5. There is improper data validations for most of its input fields (Phone No., etc) in multiple sections (power supply address, connection details, etc)
+6. There are spelling errors in the form (eg: No is spelled as N0)
+7. The spacing between different components is uneven
+8. Upon Click of Upload buttons, the error messages are not alligned correctly
+9. Upon clicking Reset All, the error messages displayed for input field validations remain as is.
+10. Upon clicking the Validate OTP button, the allignment of the row changes as per the length of error message.
+11. The website is not responsive 
+12. There are too many border lines in the UI
+13. The color coding of the page is poor
+14. The entire page is not evenly alligned.
